@@ -159,3 +159,152 @@ textarea {
     border: none;
     border-radius: 9px;
 }
+
+@media(max-width: 600px) {
+    .dol {
+        width: 90%;
+        height: 200vh;
+        padding: 5%;
+        background-image: url("../../assets/rootmobile.png");
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dolLeft {
+        width: 100%;
+        color: #131313;
+    }
+
+    .dolLeftHeading {
+        font: normal normal 600 22px/28px Aktifo A;
+    }
+
+    .dolLeftSubHeading {
+        font: normal normal 300 14px/20px Aktifo A;
+    }
+
+    .dolLeftHeading2 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .listitem>li {
+        margin-bottom: 20px;
+    }
+
+    .dolLeft>button {
+        width: 168px;
+        height: 34px;
+        background: #F26621 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        font: normal normal 600 14px/17px Aktifo A;
+        margin-top: 30px;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+
+
+    .dolRight {
+        width: 100%;
+        height: 50%;
+    }
+
+    .dolRight>form {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    label {
+        font: normal normal 300 10px/12px Aktifo A;
+        margin: 2px 0;
+    }
+
+    form {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 5px 0;
+        justify-content: center;
+    }
+
+    .formheadings {
+        grid-column: 1/3;
+    }
+
+    .formHeading {
+        font: normal normal 600 16px/19px Aktifo A;
+        color: #292929;
+        margin-top: 30px;
+    }
+
+    .formSubHeading {
+        font: normal normal 300 14px/17px Aktifo A;
+        color: #292929;
+        margin-bottom: 10px;
+    }
+
+    .formLabelInput {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .describeYourself {
+        grid-column: 1/3;
+    }
+
+    .preferedDistributer {
+        grid-column: 1/3;
+    }
+
+    .additionelInformation {
+        grid-column: 1/3;
+    }
+
+    .formcheckbox {
+
+        grid-column: 1/3;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    #state {
+        width: 90%;
+    }
+
+    textarea {
+        width: 93%;
+        outline: none;
+        border-radius: 8px;
+        height: 28px;
+        border: 1px solid #62777D;
+    }
+
+    #descYourself {
+        width: 93%;
+        outline: none;
+        border-radius: 8px;
+        height: 28px;
+        border: 1px solid #62777D;
+    }
+
+    #distributer {
+        width: 93%;
+        outline: none;
+        border-radius: 8px;
+        height: 28px;
+        border: 1px solid #62777D;
+    }
+
+    .formbtn {
+        height: 32px;
+        background: #F26621 0% 0% no-repeat padding-box;
+        border: none;
+        border-radius: 9px;
+    }
+}

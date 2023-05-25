@@ -52,3 +52,43 @@
     width: 40px;
     height: 40px;
 }
+
+@media(max-width: 600px) {
+    .banner {
+        width: 90%;
+        padding: 5%;
+        background-image: url('../../assets/mobilebanner.png');
+    }
+
+    .bannerLeft {
+        width: 100%;
+    }
+
+    .bannerRight {
+        display: none;
+    }
+
+    .bannerEle1>img {
+        width: 30%
+    }
+
+    .bannerEle2 {
+        font: normal normal 600 22px/28px Aktifo A;
+    }
+
+    .bannerEle3 {
+        font: normal normal 300 16px/20px Aktifo A;
+    }
+
+    .bannerElement4logo {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        margin-right: 10px;
+    }
+
+    .bannerElement4logo>img {
+        width: 20px;
+        height: 20px;
+    }
+}

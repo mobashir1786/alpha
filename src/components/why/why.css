@@ -1,3 +1,7 @@
+.mobileimage {
+    display: none;
+}
+
 .whyus {
     width: 100%;
     height: 100vh;
@@ -69,4 +73,68 @@
     border: none;
     font: normal normal 600 30px/36px Aktifo A;
     color: #FFFFFF;
+}
+
+@media(max-width: 600px) {
+    .whyus {
+        width: 100%;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .whyLeft {
+        display: none;
+    }
+
+    .whyRight {
+        width: 100%;
+    }
+
+    .whyrightheading {
+        margin-top: 10%;
+        font: normal normal 600 22px/28px Aktifo A;
+    }
+
+    .whyCards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whycard {
+        width: 90%;
+        height: 180px;
+        display: flex;
+    }
+
+    .whycardImg>img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .whyCardDesc {
+        margin-left: 5%;
+    }
+
+    .whyiconheding {
+        font: normal normal medium 16px/28px Aktifo A;
+        font-weight: 500;
+    }
+
+    .requestACallback {
+        width: 168px;
+        height: 34px;
+        background: #F26621 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        font: normal normal 600 14px/17px Aktifo A;
+    }
+
+    .mobileimage {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background-image: url('../../assets/grassmobile.png');
+        background-size: 100% 200%;
+    }
 }

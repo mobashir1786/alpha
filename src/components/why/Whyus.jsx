@@ -43,6 +43,7 @@ function Whyus() {
                 </div>
                 <button className='requestACallback'>Request a call back</button>
             </div>
+            <div className="mobileimage"></div>
         </div>
     )
 }
