@@ -1,0 +1,54 @@
+.banner {
+    width: 80%;
+    height: 80vh;
+    padding: 0% 10%;
+    background-image: url('../../assets/car1.png');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bannerLeft {
+    width: 50%;
+}
+
+.bannerRight {
+    width: 50%;
+}
+
+
+.bannerEle1 {
+    margin: 8% 0;
+}
+
+.bannerEle2 {
+    font: normal normal normal 48px/64px Aktifo A;
+    margin-bottom: 3%;
+}
+
+.bannerEle3 {
+    font: normal normal 300 34px/41px Aktifo A;
+    color: #292929;
+    margin-bottom: 3%;
+}
+
+.bannerElement4logo {
+    width: 80px;
+    height: 80px;
+    background-color: #292929;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.bannerEle4 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bannerElement4logo>img {
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,29 @@
+.footer {
+    width: 100%;
+    height: 30vh;
+}
+
+.footertop {
+    height: 80%;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer1>div {
+    font: normal normal 300 25px/36px Aktifo A;
+}
+
+.footer2>div {
+    font: normal normal 300 24px/29px Aktifo A;
+}
+
+.footerbottom {
+    height: 20%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
